@@ -1,6 +1,6 @@
-from django.conf.urls import patterns, include, url
-import views
+from django.conf.urls import include, url
+from . import views
 
-urlpatterns = patterns('',
+urlpatterns = [
     url(r'.*$', views.index),
-)
+]

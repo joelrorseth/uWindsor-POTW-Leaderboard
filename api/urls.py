@@ -1,8 +1,8 @@
-from django.conf.urls import patterns, include, url
-import views
+from django.conf.urls import include, url
+from . import views
 
-urlpatterns = patterns('',
+urlpatterns = [
     url(r'^solvers/?$', views.solvers),
     url(r'^solution_count/?$', views.problem_solution_count),
     url(r'^solution_languages/?$', views.solution_languages),
-)
+]

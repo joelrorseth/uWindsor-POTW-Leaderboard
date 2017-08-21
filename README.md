@@ -1,7 +1,7 @@
 University of Windsor Problem of the Week Leaderboards
 ========================================================
 
-Live at [potw.quinnftw.com](http://potw.quinnftw.com)
+POTW will once again be live this September! Stay tuned...
 
 About
 ---------
@@ -12,7 +12,19 @@ Students who solve said problem recieve a ballot that is entered for a draw at t
 
 This web-app was created to help make the process easier for all those involved (solvers and checkers) and hopefully get more students involved.
 
-Contributing
+Testing
+-------------
+This repo has been recently updated for Python 3. To run, you will most likely need the following versions *or newer* to
+successfully compile:
+
+* Python 3.6.2
+* Django 1.11.4
+* Pip 9.0.1
+
+Contributors
 --------------
 
-Find a bug in my code?  Think of a sweet feature? Awesome!  Fork this repo and make a pull request.  If you aren't super familiar with django come find me in the java lab and talk to me about it!
+Quinn Perfetto - *Original project*
+Joel Rorseth - *Python 3 migration*
+
+Find a bug in my code? Think of a sweet feature? Awesome! Fork this repo and make a pull request. 
