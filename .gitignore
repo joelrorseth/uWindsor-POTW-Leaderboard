@@ -1,5 +1,28 @@
-*.pyc
+# Left out for security
+# If you are reading this, you need to make your own
+# See potwleaderboard/fake-settings.py
+
 settings.py
 *.sqlite3
+
 migrations/
 uploads/
+
+# Typical Django ignore
+*.egg-info
+*.pot
+*.py[co]
+.tox/
+__pycache__
+MANIFEST
+dist/
+docs/_build/
+docs/locale/
+node_modules/
+tests/coverage_html/
+tests/.coverage
+build/
+tests/report/
+
+# Misc
+.DS_Store
